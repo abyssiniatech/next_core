@@ -15,6 +15,7 @@ const Navigation = () => {
             <Link href="/contact" className="hover:underline">Contact</Link>
             <Link href="/user" className="hover:underline">User</Link>
             <Link href="/show" className="hover:underline">show</Link>
+            <Link href="/hooks" className="hover:underline">Hooks</Link>
          </nav>
     </div>
   )
