@@ -3,7 +3,9 @@ export default async function About(){
     const res=await data.json()
     return(
         <section className="bg-indigo-700 text-white p-4 min-h-screen text-center">
-            <h1>About page </h1>
+             <div>
+                   welcome to my app 
+             </div>
             {
              res.map((list) =>{
                 return(
