@@ -4,12 +4,11 @@ export default async function BlogPostPage({
   params: Promise<{ slug: string }>
 }) {
   const { slug } = await params
-  const post = await getPost(slug)
+  
  
   return (
-    <div>
-      <h1>{post.title}</h1>
-      <p>{post.content}</p>
+    <div className="bg-indigo-800 text-white min-h-screen flex items-center justify-center">
+      <h1>my post id is : {slug}</h1>
+      
     </div>
   )
-}
