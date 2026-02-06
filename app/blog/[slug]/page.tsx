@@ -1,15 +1,11 @@
-export default async function BlogPostPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>
-}) {
-  const { slug } = await params
-  
- 
+import React from 'react'
+const page = async({params}: {params: Promise<{slug: string}>}) => {
+     const slug = (await params).slug
   return (
-    <div className="bg-indigo-800 text-white min-h-screen flex items-center justify-center">
-      <h1>my post id is : {slug}</h1>
-      
+    <div className='flex justify-center items-center min-h-screen'>
+      <h1>daynamic route: {slug}</h1>
     </div>
   )
 }
+
+export default page
