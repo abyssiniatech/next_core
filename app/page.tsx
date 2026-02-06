@@ -1,17 +1,10 @@
-import Image from "next/image";
-import Img from "@/public/next.svg"
-export default function Home(){
-  return(
-    <div className="bg-indigo-900 text-white p-4 text-center min-h-screen w-100 h-40 flex items-center justify-center m-auto">
-    <p>Home Page</p>
-   <Image src = {Img} 
-     alt=" surafel image "
-    //  fill
-     height={100}
-     width={100}
 
-    style={{objectFit:"cover"}}
-   />
-    </div>
+const page = () => {
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-purple-900 to-pink-800 flex items-center justify-center">
+      <h1 className="text-3xl font-bold text-center mt-8">Welcome to my Next.js App!</h1>
+    </div> 
   )
 }
+
+export default page

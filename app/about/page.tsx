@@ -1,7 +1,7 @@
-export default function About(){
+export default function(){
     return(
-        <section className="bg-indigo-700 text-white p-4 min-h-screen text-center">
-            <h1>About page </h1>
-        </section>
-    )
+        <div className="min-h-screen bg-gradient-to-br from-purple-900 to-pink-800 flex items-center justify-center">
+      <h1 className="text-3xl font-bold text-center mt-8">About Page</h1>
+    </div>
+    ) 
 }
