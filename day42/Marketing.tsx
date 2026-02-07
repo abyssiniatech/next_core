@@ -6,6 +6,7 @@
     {name:"About",href:"/about"},
     {name:"Product",href:"/product"},
     {name:"market",href:"/market"},
+    {name:"Counter",href:"/counter"},
   ]
 
 
