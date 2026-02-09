@@ -7,7 +7,8 @@
     {name:"Product",href:"/product"},
     {name:"market",href:"/market"},
     {name:"Counter",href:"/counter"},
-    {name:"shadcn" , href:"/shadcn"}
+    {name:"shadcn" , href:"/shadcn"},
+    {name:"Hooks" , href:"/hooks"},
   ]
 
 
