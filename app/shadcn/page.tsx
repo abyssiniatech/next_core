@@ -28,9 +28,9 @@ const page = () => {
       </Accordion>
       </section>
       
-      <section className="bg-indigo-900 w-auto p-4 rounded">
+      <section className=" w-auto p-4 rounded">
       <h1 className="text-2xl font-bold">Shadcn card</h1>
-      <Card>
+      <Card className="p-10 border border-gray-400 rounded">
           <CardHeader>
             <CardTitle>Card Title</CardTitle>
             <CardDescription>Card Description</CardDescription>
