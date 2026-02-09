@@ -42,6 +42,7 @@ export default function HomePage() {
 
           {posts.map((post) => (
             <div key={post.id} className="border p-3 rounded w-full">
+              <p className="font-bold">{post.id}</p>
               <p className="font-bold">{post.title}</p>
               <p className="text-sm text-gray-600">{post.body}</p>
             </div>
