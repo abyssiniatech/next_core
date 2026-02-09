@@ -16,7 +16,7 @@ import {
 const page = () => {
   return (
     <div className=" max-w-md p-2 mx-auto flex flex-col items-center justify-center gap-4 border border-gray-400 m-2 rounded bg-gray-100 min-h-screen">
-       <section className="w-auto">
+       <section className="w-auto text-center p-4 rounded text-gray-700">
       <h1 className="text-2xl font-bold">Shadcn Accordion</h1>
       <Accordion type="single" collapsible defaultValue="item-1">
         <AccordionItem value="item-1">
