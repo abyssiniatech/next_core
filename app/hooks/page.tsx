@@ -5,6 +5,7 @@ import Useref from '@/components/hooks/Useref'
 import UseReducer from '@/components/hooks/UseReducer'
 import TodoApp from '@/components/hooks/Todo'
 import Card from '@/components/hooks/Card'
+import Usestatehook from '@/components/hooks/Usestatehook'
 const page = () => {
   return (
     <div className='text-center min-h-screen text-pink-900 flex-col flex items-center justify-center '>
@@ -15,6 +16,7 @@ const page = () => {
       <UseReducer />
       <TodoApp />
       <Card />
+      <Usestatehook />
     </div>
   )
 }
