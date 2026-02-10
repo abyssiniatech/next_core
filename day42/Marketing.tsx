@@ -9,6 +9,7 @@
     {name:"Counter",href:"/counter"},
     {name:"shadcn" , href:"/shadcn"},
     {name:"Hooks" , href:"/hooks"},
+    {name:"Form" , href:"/form"},
   ]
 
 
