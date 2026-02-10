@@ -8,9 +8,11 @@ type User = {
   email: string;
 };
 
-export default function Product() {
+export default  async function Product() {
   const [data, setData] = useState<User[]>([]);
-
+   await new Promise((resolve: any)=>{
+       setTimeout(resolve,3000)
+   })
   useEffect(() => {
     async function fetchData() {
       try {
