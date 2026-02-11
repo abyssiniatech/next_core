@@ -3,6 +3,7 @@ import SimpleFormvalidation from './../../components/Reactform/SimpleFormvalidat
 import Reacthookform from "@/components/Reactform/Reacthookform";
 import Form from "@/components/Reactform/Form";
 import ProfessionalForm from "@/components/Reactform/CompleteForm";
+import NameForm from "@/components/Reactform/Name";
 const page = () => {
   return (
     <div className="min-h-screen bg-gray-900 p-4 border-2  rounded">
@@ -11,6 +12,7 @@ const page = () => {
        <Reacthookform />
        <Form />
        <ProfessionalForm />
+       <NameForm />
     </div>
   )
 }
