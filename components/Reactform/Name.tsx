@@ -11,7 +11,11 @@ export default function NameForm() {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<FormData>();
+  } = useForm<FormData>({
+    defaultValues: {
+        name: "surafel"
+    }
+  });
 
   const onSubmit = (data: FormData) => {
     console.log(data);
