@@ -80,6 +80,7 @@ const SimpleForm = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
+        {errors.email && <p className="text-red-400 text-sm">{errors.email}</p>}
         <label htmlFor="password" className="block mt-3">Password</label>
 
         <input
