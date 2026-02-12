@@ -10,6 +10,7 @@
     {name:"shadcn" , href:"/shadcn"},
     {name:"Hooks" , href:"/hooks"},
     {name:"Form" , href:"/form"},
+    {name:"registration" , href:"/registration"},
   ]
 
 
