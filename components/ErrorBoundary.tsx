@@ -1,4 +1,4 @@
-// components/ErrorBoundary.tsx
+
 "use client";
 
 import React from "react";
@@ -25,7 +25,7 @@ export class ErrorBoundary extends React.Component<Props, State> {
   render() {
     if (this.state.hasError) {
       return (
-        <div className="p-4 bg-red-100 text-red-600 rounded">
+        <div className="p-4 bg-red-100 text-red-600 rounded h-full flex items-center justify-center min-h-screen">
           Something went wrong.
         </div>
       );
