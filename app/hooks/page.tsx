@@ -9,6 +9,7 @@ import Usestatehook from '@/components/hooks/Usestatehook'
 import Useeffecthook from '@/components/hooks/Useeffecthook'
 import Userefhook from '@/components/hooks/Userefhook'
 import Usereducerhook from '@/components/hooks/Usereducerhook'
+ import Memo from '@/components/hooks/memo/Counter'
 const page = () => {
   return (
     <div className='text-center min-h-screen text-pink-900 flex-col flex items-center justify-center '>
@@ -23,6 +24,7 @@ const page = () => {
       <Useeffecthook />
       <Userefhook />
       <Usereducerhook />
+     <Memo />
     </div>
   )
 }
