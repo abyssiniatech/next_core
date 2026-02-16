@@ -9,7 +9,7 @@ export default function Show() {
             
             show &&
             (
-            <div className="bg-indigo-700 text-white rounded p-4 ">
+            <div className="bg-indigo-700 w-93 p-8 text-white rounded">
               <h1>My website</h1>
               <p>these is the best show and hide 
               page of fthe following  xand also it os the best course4 ever after 6 menth i ams the professional wqeb develope all over the worls and di ahave it its the nice. 
