@@ -11,6 +11,7 @@
     {name:"Hooks" , href:"/hooks"},
     {name:"Form" , href:"/form"},
     {name:"registration" , href:"/registration"},
+    {name:"Hook1" , href:"/hook1"},
   ]
 
 
