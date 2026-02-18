@@ -6,12 +6,13 @@
     {name:"About",href:"/about"},
     {name:"Product",href:"/product"},
     {name:"market",href:"/market"},
-    {name:"Counter",href:"/counter"},
-    {name:"shadcn" , href:"/shadcn"},
-    {name:"Hooks" , href:"/hooks"},
-    {name:"Form" , href:"/form"},
-    {name:"registration" , href:"/registration"},
-    {name:"Hook1" , href:"/hook1"},
+    // {name:"Counter",href:"/counter"},
+    // {name:"shadcn" , href:"/shadcn"},
+    // {name:"Hooks" , href:"/hooks"},
+    // {name:"Form" , href:"/form"},
+    // {name:"registration" , href:"/registration"},
+    // {name:"Hook1" , href:"/hook1"},
+    {name:"day57",href:"/day57"},
   ]
 
 
