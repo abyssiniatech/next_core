@@ -5,6 +5,7 @@ const links=[
     {name:"Admin",href:"/admin"},
     {name:"Dashboard",href:"/dashboard"},
     {name:"Contact",href:"/contact"},
+    {name:"User",href:"/user"},
 ]
 
 const Navlink = () => {
