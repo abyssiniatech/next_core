@@ -1,6 +1,7 @@
 // import  Image from "next/image"
 import styles from "./about.module.css"
-const page = () => {
+const AboutPage
+ = () => {
   return (
     <div className=" flex items-center justify-center bg-indigo-900 text-bold  text-white min-h-screen">
     <h1 className={styles.title}>About Page!</h1>
@@ -10,4 +11,5 @@ const page = () => {
   )
 }
 
-export default page
+export default AboutPage
+
