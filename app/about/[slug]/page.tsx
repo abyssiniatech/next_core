@@ -7,9 +7,9 @@ export default async function DaynamicPage({params}:{params : Promise<{slug:stri
          flex
          justify-center
          items-center 
-           
+         min-h-screen
            ">
-           <pre>the daynamic id : {slug}</pre>
+           <pre>Id: {slug}</pre>
         </div>
     )
 }
