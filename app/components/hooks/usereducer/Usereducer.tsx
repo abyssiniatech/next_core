@@ -1,8 +1,5 @@
 "use client"
-// interface counter{
-//     state:number;
-//     type:string;
-// }
+
 const initial =0
 import { useReducer } from "react"
 const reducer=(state: number,action: { type: string })=>{
