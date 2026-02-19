@@ -6,6 +6,7 @@ const links=[
     {name:"Dashboard",href:"/dashboard"},
     {name:"Contact",href:"/contact"},
     {name:"User",href:"/user"},
+    {name:"Hooks",href:"/hooks"},
     {name:"Api",href:"/api"}
 ]
 
