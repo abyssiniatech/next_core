@@ -11,7 +11,7 @@ const Useeffect = () => {
  
     },[counter])
   return (
-    <div>
+    <div className="min-h-screen ">
       <button onClick={()=>setCounter(counter+1)}
         className="bg-green-700 px-4 py-2 rounded-lg text-white"
         >{counter} times render</button>
