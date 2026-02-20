@@ -7,7 +7,9 @@ const links=[
     {name:"Contact",href:"/contact"},
     {name:"User",href:"/user"},
     {name:"Hooks",href:"/hooks"},
-    {name:"Api",href:"/api"}
+    {name:"Api",href:"/api"},
+    {name:"Form",href:"/form"},
+
 ]
 
 const Navlink = () => {
