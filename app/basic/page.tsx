@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { useRouter } from "next/navigation"
+import Form from "../components/basic/Form"
 
 export default function Basic(){
     const navigate = useRouter()
@@ -12,6 +13,9 @@ export default function Basic(){
             <Link href="/about">
                <p>About</p>
             </Link>
+            <section>
+                <Form />
+            </section>
         </div>
     )
 }
