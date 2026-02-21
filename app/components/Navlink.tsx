@@ -9,6 +9,7 @@ const links=[
     {name:"Hooks",href:"/hooks"},
     {name:"Api",href:"/api"},
     {name:"Form",href:"/form"},
+    {name:"Basic",href:"/basic"},
 
 ]
 
