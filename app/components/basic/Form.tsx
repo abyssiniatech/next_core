@@ -37,7 +37,7 @@ const Form = () => {
            <label htmlFor="password">Password:</label>
           <input 
           {...register("Password",{required:"Password is required!"})}
-          type="text"
+          type="password"
           id="password"
          placeholder="add password"
          className="bg-gray-50 mx-auto  border border-gray-400 p-2 text-gray-800"
