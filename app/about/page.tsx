@@ -48,7 +48,9 @@ const AboutPage
           
           
           />
+          
             {errors.password && <p className="text-red-500">{errors.password.message}</p>}
+            <button type ="submit" className="bg-pink-900 text-white px-4 py-2 rounded hover:bg-pink-700 mt-4 ">Submit</button>
         </form>
     </div>
     <Image src="/surafel.JPG"
