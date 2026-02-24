@@ -1,6 +1,7 @@
 import Useeffect from "../components/hooks/useeffect/Useeffect"
 import Usestate from "../components/hooks/usestate/usestate"
 import Reducer from "../components/hooks/usereducer/Usereducer"
+import Reducer1 from "../components/hooks/usereducer/Reducer1"
 
 const Hooks = () => {
   return (
@@ -8,6 +9,7 @@ const Hooks = () => {
       <Usestate />
       <Useeffect />
       <Reducer />
+      <Reducer1 />
     </div>
   )
 }
