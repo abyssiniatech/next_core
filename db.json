@@ -1,0 +1,36 @@
+{
+    "superhero":[
+        {"id": 1,
+        "name": "Superman",
+        "alterEgo":"Bruce Wayne"
+    
+    },
+    {
+        "id": 2,
+        "name": "Batman",
+        "alterEgo": "Bruce Wayne"
+    },
+    {
+        "id": 3,
+        "name": "Batman",
+        "alterEgo": "Steve Rogers"
+    },
+    {
+        "id": 4,
+        "name": "Wonder",
+        "alterEgo": "Diana Prince"
+    },
+    {
+        "id": 5,
+        "name": "Flash",
+        "alterEgo": "Barry Allen"
+    },
+    {
+        "id": 6,
+        "name": "Green Lantern",
+        "alterEgo": "Hal Jordan"
+    }
+
+
+    ]
+}
