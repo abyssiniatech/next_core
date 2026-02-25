@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "json-server": "json-server --watch db.json --port 4000"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -24,6 +25,7 @@
     "react-dom": "19.2.3",
     "react-error-boundary": "^6.1.0",
     "react-hook-form": "^7.71.1",
+    "react-router-dom": "^7.13.1",
     "styled-jsx": "^5.1.7",
     "tailwind-merge": "^3.4.0",
     "zod": "^4.3.6"
