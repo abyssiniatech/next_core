@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import axios from "axios"
 import { JSX } from "react/jsx-runtime"
 interface heros{
-    map(arg0: (item: any) => JSX.Element): import("react").ReactNode
+    map(arg0: (item: unknown) => JSX.Element): import("react").ReactNode
     id:number
     name:string
     alterEgo:string
