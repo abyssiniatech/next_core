@@ -1,3 +1,5 @@
+
+   "use client"
 import Activelinks from "./Activelinks";
 
 
