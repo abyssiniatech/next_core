@@ -14,7 +14,8 @@ const links = [
   { name: "Api", href: "/api" },
   { name: "Form", href: "/form" },
   { name: "Basic", href: "/basic" },
-  {name:"React Query",href:"/reactquery"}
+  {name:"React Query",href:"/reactquery"},
+  {name:"Approuter",href:"approuter"},
 ];
 
 const Navlink = () => {
