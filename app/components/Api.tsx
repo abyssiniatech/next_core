@@ -6,13 +6,13 @@
    }
 // https://jsonplaceholder.typicode.com/posts
 const Api = async() => {
-    const res=await fetch<api>("https://jsonplaceholder.typicode.com/posts")
+    const res=await fetch("https://jsonplaceholder.typicode.com/posts")
     const data = await res.json()
     console.log(data)
   return (
     <div>
       {
-        data.map((list) =>{
+        data.map((list:api) =>{
             return (
                 <div key={list.id} className="border border-gray-50 m-2 p-2 rounded">
                     <p>{list.id}</p>
