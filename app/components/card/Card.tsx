@@ -8,7 +8,7 @@ export const cards = [
     contact: "contact@company.com",
   },
   {
-    img: "/images/sura1.jpg",
+    img: "/images/sura4.jpg",
     title: "UI/UX Design",
     description: "Creative and user-friendly design solutions.",
     contact: "design@company.com",
@@ -20,7 +20,7 @@ export const cards = [
     contact: "seo@company.com",
   },
   {
-    img: "/images/sura3.jpg",
+    img: "/images/sura6.jpg",
     title: "Digital Marketing",
     description: "Grow your business with smart strategies.",
     contact: "marketing@company.com",
@@ -30,8 +30,8 @@ export const cards = [
 const Card = () => {
   return (
     <div className="min-h-screen bg-gray-100 p-6">
-      
-      <h1 className="text-3xl font-bold text-center mb-10">
+       
+      <h1 className="text-3xl font-bold text-center text-3xl mb-10 text-indigo-800">
         Our Services
       </h1>
 
@@ -49,7 +49,7 @@ const Card = () => {
                 src={card.img}
                 alt={card.title}
                 fill
-                className="object-cover"
+                className="object-cover fill"
               />
             </div>
 
