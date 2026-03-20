@@ -1,11 +1,11 @@
    "use client"
 // header components 
-  
+  import Link from "next/link"
 import Navlink from "./Navlink"
 const Header = () => {
   return (
     <div className="bg-gray-800 text-white p-4 flex justify-between items-center ">
-      <h1>My website</h1>
+      <h1><Link>My website</Link></h1>
       <Navlink  />
     </div>
   )
