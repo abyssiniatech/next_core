@@ -5,7 +5,7 @@ import Navlink from "./Navlink"
 const Header = () => {
   return (
     <div className="bg-gray-800 text-white p-4 flex justify-between items-center ">
-      <h1><Link>My website</Link></h1>
+      <h1><Link href="/">My website</Link></h1>
       <Navlink  />
     </div>
   )
