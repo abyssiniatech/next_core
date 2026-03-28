@@ -11,13 +11,14 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useRouter } from "next/navigation"
 const Contactpage = () => {
+
   const pathname=usePathname()
   const router = useRouter()
      const handleclick=() =>{
       router.push("/")
      }
   return (
-    <div className="bg-indigo-900 text-white min-h-screen font-bold flex justify-center items-center">
+    <div className="bg-indigo-900  text-white min-h-screen font-bold flex justify-between items-center flex-col">
       {link.map((list, index) => {
         const activeLink=pathname === list.href ? "text-pink-500" : "";
         return (
@@ -32,6 +33,7 @@ const Contactpage = () => {
         className="px-4 py-2 bg-pink-700 text-white rounded text-2xl">
         Go to home
       </button>
+
     </div>
   );
 }
