@@ -9,7 +9,8 @@ const link = [
   { name: "Contact", href: "/contact" },
   { name: "Blog", href: "/blog" },
   { name: "Services", href: "/services" },
-  { name: "Product", href: "/product" }
+  { name: "Product", href: "/product" },
+  {name:"Dashboard",href:"/dashboard"},
 ];
 
 const Navlink = () => {
