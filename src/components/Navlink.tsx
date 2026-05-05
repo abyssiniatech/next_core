@@ -11,6 +11,7 @@ const link = [
   { name: "Services", href: "/services" },
   { name: "Product", href: "/product" },
   {name:"Dashboard",href:"/dashboard"},
+  {name:Route,href:"/route"},
 ];
 
 const Navlink = () => {
